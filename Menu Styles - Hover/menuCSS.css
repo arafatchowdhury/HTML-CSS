@@ -1,0 +1,55 @@
+h1{
+	color: gray;
+	margin-top: 100px;
+}
+.header{
+	text-align: center;
+	margin: auto;
+	
+}
+
+.container{
+	padding:100px 0;
+	max-width:640px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+ul li{
+	float: left;
+	width:200px;
+	height:40px;
+	background-color:gray;
+	opacity: .8;
+	line-height:40px;
+	text-align: center;
+	font-size:20px;
+	margin-right:2px;
+}
+
+ul lu a{
+	text-decoration:none;
+	color: white;
+	display:block;
+}
+
+ul li a:hover{
+	background-color:#ccc;
+}
+
+/* this will hide the sub-menu */
+ul li ul li{
+	display:none;
+}
+
+/* this will make the sub-menu visible only when hover over */
+ul li:hover ul li{
+	display: block;
+}
+
